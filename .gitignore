@@ -1,0 +1,119 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/intellij+all,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij+all,java
+
+### Intellij+all ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+java/SimpleTextEditor/.idea/**/workspace.xml
+java/SimpleTextEditor/.idea/**/tasks.xml
+java/SimpleTextEditor/.idea/**/usage.statistics.xml
+java/SimpleTextEditor/.idea/**/dictionaries
+java/SimpleTextEditor/.idea/**/shelf
+
+# Generated files
+java/SimpleTextEditor/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+java/SimpleTextEditor/.idea/**/dataSources/
+java/SimpleTextEditor/.idea/**/dataSources.ids
+java/SimpleTextEditor/.idea/**/dataSources.local.xml
+java/SimpleTextEditor/.idea/**/sqlDataSources.xml
+java/SimpleTextEditor/.idea/**/dynamic.xml
+java/SimpleTextEditor/.idea/**/uiDesigner.xml
+java/SimpleTextEditor/.idea/**/dbnavigator.xml
+
+# Gradle
+java/SimpleTextEditor/.idea/**/gradle.xml
+java/SimpleTextEditor/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+java/SimpleTextEditor/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+java/SimpleTextEditor/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+java/SimpleTextEditor/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+java/SimpleTextEditor/.idea/caches/build_file_checksums.ser
+
+### Intellij+all Patch ###
+# Ignores the whole .idea folder and all .iml files
+# See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
+
+java/SimpleTextEditor/.idea/
+
+# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
+*.iml
+modules.xml
+java/SimpleTextEditor/.idea/misc.xml
+*.ipr
+
+# Sonarlint plugin
+java/SimpleTextEditor/.idea/sonarlint
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# End of https://www.toptal.com/developers/gitignore/api/intellij+all,java
