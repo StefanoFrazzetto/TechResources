@@ -61,6 +61,8 @@ public class UserInterface extends JFrame implements ActionListener {
     }
 
     private JTextArea createTextArea() {
+        // Ideally, the arguments here could be parameters of this method,
+        // or they could be stored as constants, i.e. private static final <TYPE>
         JTextArea textArea = new JTextArea("", 0, 0);
         textArea.setFont(new Font("Century Gothic", Font.PLAIN, 12));
         textArea.setTabSize(2);
