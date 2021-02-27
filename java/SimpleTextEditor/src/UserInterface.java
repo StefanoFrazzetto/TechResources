@@ -83,14 +83,6 @@ public class UserInterface extends JFrame implements ActionListener {
         return panel;
     }
 
-    private void updateInformationArea() {
-        String separator = " | ";
-        String builder = "Words: " + wordCount +
-                separator + "Characters: " + charactersCount +
-                separator + "Cursor position: " + caretPosition;
-        informationArea.setText(builder);
-    }
-
     private void bindKeyListener() {
         contentArea.addKeyListener(new KeyAdapter() {
             @Override
@@ -117,9 +109,17 @@ public class UserInterface extends JFrame implements ActionListener {
     private void handleCaretUpdate(CaretEvent event) {
         int caretCurrentPosition = event.getDot();
         if (caretCurrentPosition != caretPosition) {
-            caretPosition = event.getDot();
+            caretPosition = caretCurrentPosition;
             updateInformationArea();
         }
+    }
+
+    private void updateInformationArea() {
+        String separator = " | ";
+        String builder = "Words: " + wordCount +
+                separator + "Characters: " + charactersCount +
+                separator + "Cursor position: " + caretPosition;
+        informationArea.setText(builder);
     }
 
     @Override
