@@ -4,7 +4,7 @@ I created this repository to share information and resources I find useful. I ho
 
 ## Sample Applications
 
-### [Simple Text Editor (Java)](./java/SimpleTextEditor)
+### [Simple Text Editor (Java)](./java/SimpleTextEditor/src)
 
 The aim here is to demonstrate how to create a simple _text editor_ using the Java's JFrame class, and attach some listeners to it: these will update the information displayed to the user, whenever they add or remove content from the text area, e.g. word count and position of the [caret](https://en.wikipedia.org/wiki/Caret_navigation) relative to the text.
 
