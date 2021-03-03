@@ -61,6 +61,8 @@ public class UserInterface extends JFrame implements ActionListener {
     }
 
     private JTextArea createTextArea() {
+        // Ideally, the arguments here could be parameters of this method,
+        // or they could be stored as constants, i.e. private static final <TYPE>
         JTextArea textArea = new JTextArea("", 0, 0);
         textArea.setFont(new Font("Century Gothic", Font.PLAIN, 12));
         textArea.setTabSize(2);
@@ -79,14 +81,6 @@ public class UserInterface extends JFrame implements ActionListener {
         JPanel panel = new JPanel(new BorderLayout());
         panel.add(component);
         return panel;
-    }
-
-    private void updateInformationArea() {
-        String separator = " | ";
-        String builder = "Words: " + wordCount +
-                separator + "Characters: " + charactersCount +
-                separator + "Cursor position: " + caretPosition;
-        informationArea.setText(builder);
     }
 
     private void bindKeyListener() {
@@ -115,9 +109,17 @@ public class UserInterface extends JFrame implements ActionListener {
     private void handleCaretUpdate(CaretEvent event) {
         int caretCurrentPosition = event.getDot();
         if (caretCurrentPosition != caretPosition) {
-            caretPosition = event.getDot();
+            caretPosition = caretCurrentPosition;
             updateInformationArea();
         }
+    }
+
+    private void updateInformationArea() {
+        String separator = " | ";
+        String builder = "Words: " + wordCount +
+                separator + "Characters: " + charactersCount +
+                separator + "Cursor position: " + caretPosition;
+        informationArea.setText(builder);
     }
 
     @Override
