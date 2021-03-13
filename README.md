@@ -2,6 +2,38 @@
 
 I created this repository to share information and resources I find useful. I hope these can be helpful to software developers, engineers, or students, more generally anyone who is interested in software, regardless of  their background. If you notice any mistakes, or if just you want to add something that belongs here, please let me know.
 
+## [freeCodeCamp](https://www.freecodecamp.org/)
+
+freeCodeCamp provides you with the tools to help get started with your  career in software development, giving you access thousands of hours of video courses for free. It features a course with lessons and checkpoints, allowing you to check your progress. At the end of the course, you will have the opportunity to work on some projects and earn certifications you will be able to diplay on your LinkedIn profile.
+
+## [GitHub Education (students and teachers)](https://education.github.com/)
+
+Some of the things you can get:
+- GitHub: free pro subscription
+- NameCheap: 1 year domain name registration (.me TLD) 
+- Microsoft Azure: free access to some services and $100 in Azure credits
+- Unity: free student plan
+- Stripe: no fees for the first $1000 in revenue
+
+## [JetBrains Educational Licenses](https://www.jetbrains.com/community/education)
+
+> Get free access to all JetBrains IDEs for personal use at school or at home.
+
+Some of their most used IDEs are
+- IntelliJ IDEA (Java)
+- PyCharm (Python)
+- WebStorm (web development)
+
+## [LinkedIn Learning](https://www.linkedin.com/learning/learning-linkedin-for-students/tap-into-the-power-of-linkedin)
+
+By signing in with your university's email address, you can access many courses for free on LinkedIn.
+
+Some courses you might find useful
+
+- [Become a Programmer: Foundations](https://www.linkedin.com/learning/paths/become-a-programmer-foundations)
+- [Become a Web Developer](https://www.linkedin.com/learning/paths/become-a-web-developer)
+- [Java 8 Essential Training](https://www.linkedin.com/learning/java-8-essential-training/welcome)
+
 ## Sample Applications
 
 ### [Simple Text Editor (Java)](./java/SimpleTextEditor/src)
